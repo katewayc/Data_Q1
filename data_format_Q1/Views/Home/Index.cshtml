@@ -1,0 +1,44 @@
+﻿@model IEnumerable<data_format_Q1.ViewModels.ProductListViewModel>
+
+@{
+    ViewBag.Title = "Question";
+}
+
+<h2>product list</h2>
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Date1)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Product_Name)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Promote_Price)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Convert.ToString(string.Format("{0:yyyy/MM/dd HH:mm:ss}", item.Date1))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Promote_Price)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
