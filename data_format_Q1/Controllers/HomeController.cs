@@ -48,10 +48,10 @@ namespace data_format_Q1.Controllers
                 });
             }
 
-            // AutoMapper Test
-            Mapper.Initialize(x =>
-            x.CreateMap<Product, ProductListViewModel>()
-            );
+            //// AutoMapper Test >>> moved to data_format_Q1.App_Start AutoMapperConfig
+            //Mapper.Initialize(x =>
+            //x.CreateMap<Product, ProductListViewModel>()
+            //);
 
             var result_byAutoMapper = Mapper.Map<List<Product>, List<ProductListViewModel>>(ProductList);
             //return View(result_byAutoMapper);
