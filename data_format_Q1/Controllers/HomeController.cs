@@ -20,7 +20,7 @@ namespace data_format_Q1.Controllers
             List<Product> ProductList = new List<Product>();
 
             // read data from file
-            using (StreamReader r = new StreamReader(Server.MapPath("~/App_Data/data.json")))
+            using (StreamReader r = new StreamReader(Server.MapPath(@"~/App_Data/data.json")))
             {
                 string json = r.ReadToEnd();
                 List<Product> items = JsonConvert.DeserializeObject<List<Product>>(json);
@@ -48,14 +48,7 @@ namespace data_format_Q1.Controllers
                 });
             }
 
-            //// AutoMapper Test >>> moved to data_format_Q1.App_Start AutoMapperConfig
-            //Mapper.Initialize(x =>
-            //x.CreateMap<Product, ProductListViewModel>()
-            //);
-
             var result_byAutoMapper = Mapper.Map<List<Product>, List<ProductListViewModel>>(ProductList);
-            //return View(result_byAutoMapper);
-
 
             return View(_viewModel);
 
