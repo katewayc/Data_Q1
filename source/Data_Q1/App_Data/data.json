@@ -1,0 +1,48 @@
+[
+    {
+        "Date1": "2019-03-26T09:35:32.8485702Z",
+        "Locale": "US",
+        "Product_Name": "Apple AirPods with Wireless Charging Case (Latest Model)",
+        "Price": 201.55,
+        "Promote_Price": "199.00"
+    },
+    {
+        "Date1": "2018-12-25T09:35:32.8495681Z",
+        "Locale": "US",
+        "Product_Name": "Bluetooth Kopfhörer Mini Bluetooth Ohrhörer Stereo Wireless (Weiß 2019)",
+        "Price": 32.21,
+        "Promote_Price": "28.99"
+    },
+    {
+        "Date1": "2019-03-22T09:35:32.8495681Z",
+        "Locale": "CA",
+        "Product_Name": "ÅMÅŽÕÑ Funda Para Caja De Airpods De Silicon Máxima Protección",
+        "Price": 129.145,
+        "Promote_Price": ""
+    },
+    {
+        "Date1": "2019-03-25T14:35:32.8495681Z",
+        "Locale": "DE",
+        "Product_Name": "DnA Tech® - Set di 2 piercing per orecchie, in silicone morbido, per airpods e EarPods, tenuta imbattibile nell'orecchio, perfetti per lo sport e il tempo libero 2x EarPlugs Blu",
+        "Price": 9.94,
+        "Promote_Price": "-11"
+    },
+    {
+        "Date1": "2019-03-25T11:35:32.8495681Z",
+        "Locale": "ES",
+        "Product_Name": "Apple AirPods con custodia di ricarica (Modello Precedente)",
+        "Price": 1690.99
+    },
+    {
+        "Date1": "2019-03-25T10:35:32.8495681Z",
+        "Locale": "FR",
+        "Product_Name": "Apple AirPods con custodia di ricarica (Ultimo Modello)"
+    },
+    {
+        "Date1": "2017-03-25T09:35:32.8495681Z",
+        "Locale": "JP",
+        "Product_Name": "バラ売り Apple 純正 国内正規品 AirPods 完全ワイヤレスイヤホン Bluetooth対応 MMEF2J/A 片側 バラ売り (右耳イヤホン)",
+        "Price": 8200.0,
+        "Promote_Price": "右耳イヤホン"
+    }
+]
